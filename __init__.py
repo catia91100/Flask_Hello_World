@@ -4,10 +4,6 @@ from flask import json
 import sqlite3
                                                                                                                                        
 app = Flask(__name__)  
-
-@app.route("etudiantecatia/contact/")
-def MaPremiereAPI():
-    return "<h2>Ma page de contact</h2>"
                                                                                                                                        
 @app.route('/')
 def hello_world():
